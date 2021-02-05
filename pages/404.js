@@ -16,7 +16,7 @@ export default function ErrorPage() {
         <br />
         <span style={{ fontWeight: 600 }}>
           Bootstrap your own for free{" "}
-          <a href="https://srtk.me/gh/srtk.me-v2">here</a>!
+          <a href="https://srtk.me/gh/srtk.me-v2/">here</a>!
         </span>
       </p>
       <Head>
