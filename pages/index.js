@@ -9,14 +9,14 @@ import { useRouter } from 'next/router'
 export default function RedirectPage() {
   const router = useRouter()
   if (typeof window !== 'undefined') {
-    router.push('https://sarthakmohanty.me');
+    router.push('https://devrim.tech');
     return;
   }
 }
 
 RedirectPage.getInitialProps = ctx => {
   if (ctx.res) {
-    ctx.res.writeHead(302, { Location: 'https://sarthakmohanty.me' });
+    ctx.res.writeHead(302, { Location: "https://devrim.tech" });
     ctx.res.end();
   }
   return { };
